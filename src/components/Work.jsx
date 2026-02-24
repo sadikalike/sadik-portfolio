@@ -1,7 +1,7 @@
 import React from 'react'
 import club from '../assets/iclub.png'
 import famms from '../assets/ecom.png'
-import pass from '../assets/passgen.png'
+// import pass from '../assets/passgen.png'
 import olxx from '../assets/olx.png'
 import net from '../assets/netflix.png'
 import todo from '../assets/todoss.png'
