@@ -26,15 +26,15 @@ function Work() {
 
                         </span>
                         <div className=' pt-8 text-center'>
-                            <a href="https://i-club-client.vercel.app/">
+                            <a href="https://github.com/sadikalike?tab=repositories">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-xs'>Demo</button>
                             </a>
-                            <a href="https://github.com/irshadirsha/I-club-client">
+                            {/* <a href="https://github.com/irshadirsha/I-club-client">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-xs'>Client</button>
                             </a>
                             <a href="https://github.com/irshadirsha/I-club-backend">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-xs'>Server</button>
-                            </a>
+                            </a> */}
                         </div>
                     </div>
                 </div>
@@ -49,12 +49,12 @@ function Work() {
 
                         </span>
                         <div className=' pt-8 text-center'>
-                            <a href="https://fammsstore.online/">
+                            <a href="https://github.com/sadikalike?tab=repositories">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-xs'>Demo</button>
                             </a>
-                            <a href="https://github.com/irshadirsha/fammsstore">
+                            {/* <a href="https://github.com/irshadirsha/fammsstore">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-xs'>Code</button>
-                            </a>
+                            </a> */}
                         </div>
                     </div>
                 </div>
@@ -68,15 +68,15 @@ function Work() {
 
                         </span>
                         <div className=' pt-8 text-center flex justify-between'>
-                            <a href="">
+                            <a href="https://github.com/sadikalike?tab=repositories">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-xs'>Demo</button>
                             </a>
-                            <a href="https://github.com/irshadirsha/Chat_App_Client">
+                            {/* <a href="https://github.com/irshadirsha/Chat_App_Client">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-xs'>Client</button>
                             </a>
                             <a href="https://github.com/irshadirsha/Chat_App_Server">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-xs'>Server</button>
-                            </a>
+                            </a> */}
                         </div>
                     </div>
                 </div>
@@ -94,7 +94,7 @@ function Work() {
                             {/* <a href="https://i-club-client.vercel.app/">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a> */}
-                            <a href="https://github.com/irshadirsha/OLX-React-Vite">
+                            <a href="https://github.com/sadikalike?tab=repositories">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-xs'>Code</button>
                             </a>
                         </div>
@@ -114,7 +114,7 @@ function Work() {
                             {/* <a href="https://fammsstore.online/">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a> */}
-                            <a href="https://github.com/irshadirsha/Netflix-Clone">
+                            <a href="https://github.com/sadikalike?tab=repositories">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-xs'>Code</button>
                             </a>
                         </div>
@@ -131,7 +131,7 @@ function Work() {
                         </span>
                         <div className=' pt-8 text-center'>
                            
-                            <a href="https://github.com/irshadirsha/ToDo-List">
+                            <a href="https://github.com/sadikalike?tab=repositories">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-xs'>Code</button>
                             </a>
                         </div>
