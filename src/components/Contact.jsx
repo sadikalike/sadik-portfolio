@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import emailjs from '@emailjs/browser'
-import { Send, Mail, User, MessageSquare, CheckCircle } from 'lucide-react'
+import {CheckCircle } from 'lucide-react'
 
 function Contact() {
   const [formData, setFormData] = useState({
