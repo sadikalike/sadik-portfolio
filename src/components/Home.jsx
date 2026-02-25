@@ -22,9 +22,14 @@ function Home() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.1 }}
           >
-            <h1 className='text-4xl sm:text-5xl lg:text-7xl font-bold text-white leading-tight'>
-              Muhammad <span className='text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-purple-500'>Sadik P</span>
-            </h1>
+           <h1 className='text-4xl sm:text-5xl lg:text-7xl font-bold text-white leading-tight'>
+  <span className='block sm:inline'>
+    Muhammad
+  </span>{' '}
+  <span className='block sm:inline text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-purple-500'>
+    Sadik P
+  </span>
+</h1>
           </motion.div>
 
           {/* Title */}
@@ -81,21 +86,23 @@ function Home() {
       </div>
 
       {/* Scroll Indicator */}
-      <motion.div 
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 0.8 }}
-        className='absolute bottom-8 left-1/2 -translate-x-1/2 hidden lg:block'
-      >
-        <Link to='about' smooth={true} duration={500}>
-          <div className='flex flex-col items-center gap-2 cursor-pointer group'>
-            <span className='text-xs text-gray-500 group-hover:text-pink-500 transition-colors duration-300'>Scroll</span>
-            <div className='w-5 h-8 border-2 border-gray-600 rounded-full flex justify-center group-hover:border-pink-500 transition-colors duration-300'>
-              <div className='w-1 h-2 bg-gray-600 rounded-full mt-2 animate-bounce group-hover:bg-pink-500 transition-colors duration-300' />
-            </div>
-          </div>
-        </Link>
-      </motion.div>
+     <motion.div
+  initial={{ opacity: 0 }}
+  animate={{ opacity: 1 }}
+  transition={{ delay: 0.8 }}
+  className='absolute bottom-6 sm:bottom-8 left-1/2 -translate-x-1/2'
+>
+  <Link to='about' smooth={true} duration={500}>
+    <div className='flex flex-col items-center gap-1 sm:gap-2 cursor-pointer group'>
+      <span className='text-[10px] sm:text-xs text-gray-500 group-hover:text-pink-500 transition-colors duration-300'>
+        Scroll
+      </span>
+      <div className='w-4 sm:w-5 h-7 sm:h-8 border-2 border-gray-600 rounded-full flex justify-center group-hover:border-pink-500 transition-colors duration-300'>
+        <div className='w-1 h-2 bg-gray-600 rounded-full mt-2 animate-bounce group-hover:bg-pink-500 transition-colors duration-300' />
+      </div>
+    </div>
+  </Link>
+</motion.div>
     </div>
   )
 }

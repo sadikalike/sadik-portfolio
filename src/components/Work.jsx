@@ -11,19 +11,19 @@ function Work() {
   const projects = [
     {
       id: 1,
-      title: 'I-Club',
+      title: 'Yeng Website',
       image: club,
       link: 'https://github.com/sadikalike',
     },
     {
       id: 2,
-      title: 'Famms E-commerce',
+      title: 'Nexo Digital web',
       image: famms,
       link: 'https://github.com/sadikalike',
     },
     {
       id: 3,
-      title: 'Chat Application',
+      title: 'Skillon Academy',
       image: chat,
       link: 'https://github.com/sadikalike',
     },
